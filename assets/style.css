@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600&display=swap');
+
+body {
+    width: 100%;
+    text-align: start;
+    background-color: #c7d1c1;
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background-color: #111820;
+    text-align: center;
+}
+
+header img {
+    height: 10vh;
+}
+
+#form-container {
+    margin-top: 20px;
+    padding-left: 5vh;
+}
+
+#new-task {
+    width: 90%;
+    border: none;
+    padding: 10px;
+}
+
+#new-task::placeholder{
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+}
+
+.new-list-el {
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    margin-top: 0px;
+    border-top: 0.5px solid #e5e5e5;
+}
+
+.new-list-el p {
+    display: inline;
+}
+
+.remove-todo {
+    border: none;
+}
+
+#task-list li {
+    list-style-type: none;
+}
+
+#task-list li.checked {
+    background: #a42445;
+    color: #fff;
+    text-decoration: line-through;
+  }
